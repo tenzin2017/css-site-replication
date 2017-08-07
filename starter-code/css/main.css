@@ -24,12 +24,11 @@ main {
 }
 
 .descriptions {
-    border: 2px solid black;
-    width: 40%;
+    width: 42%;
     position: relative;
     top: -155px;
     left: 545px;
-    padding: 30px;
+    padding: 0;
 }
 .brand-home {
   overflow: hidden;
@@ -39,10 +38,11 @@ main {
 }
 .home-button {
   float: left;
-  border: 2px solid #06365f;
-  background: : #1c5380;
-  color:white;
-  padding:20px;
+}
+img.login {
+  width: 40px;
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
 .instructions h2 {
@@ -55,9 +55,16 @@ main {
 }
 
 .instructions {
-  padding-top: 20px;
-  background-image: url("/Users/dolma/Desktop/bitmaker/projects/css-site-replication/starter-code/images/frame.png") no-repeat;
-}
+    background: url(../images/frame.png) no-repeat;
+    min-height: 204px;
+    padding: 40px;
+    width: 424px;
+  }
+
 .badge-iphone , .badge-android{
   padding:10px;
+}
+
+.badge-iphone {
+  padding-left: 0;
 }
