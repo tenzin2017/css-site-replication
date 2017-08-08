@@ -10,17 +10,23 @@ body {
 }
 
 main {
-  width: 100%;
+  height: 600px;
+}
+
+.upper-bar {
+  heigh:
 }
 .upper{
   position: relative;
   background: #1c5380;
+  height: 220px;
 }
 
 .iphone {
   position: relative;
-  top: 325px;
+  top: 40px;
   left: 155px;
+  width: 40%;
 }
 
 .descriptions {
@@ -29,6 +35,7 @@ main {
     top: -155px;
     left: 545px;
     padding: 0;
+    margin: 0;
 }
 .brand-home {
   overflow: hidden;
@@ -67,4 +74,25 @@ img.login {
 
 .badge-iphone {
   padding-left: 0;
+}
+
+.footer-nav {
+  text-align: center;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.footer-nav li {
+  display: inline;
+  text-decoration: none:
+  margin:auto;
+  padding:10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+a:link {
+  text-decoration: none;
+  color: #1c5380;
 }
